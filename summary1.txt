@@ -1,0 +1,32 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                      y   R-squared (uncentered):                   1.000
+Model:                            OLS   Adj. R-squared (uncentered):              1.000
+Method:                 Least Squares   F-statistic:                          6.118e+25
+Date:                Fri, 21 Apr 2023   Prob (F-statistic):                        0.00
+Time:                        17:41:51   Log-Likelihood:                          79153.
+No. Observations:                4035   AIC:                                 -1.583e+05
+Df Residuals:                    4030   BIC:                                 -1.583e+05
+Df Model:                           5                                                  
+Covariance Type:            nonrobust                                                  
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1          3.747e-11   6.22e-12      6.019      0.000    2.53e-11    4.97e-11
+x2             0.5000   3.12e-12    1.6e+11      0.000       0.500       0.500
+x3         -1.233e-10   6.68e-12    -18.454      0.000   -1.36e-10    -1.1e-10
+x4          6.705e-11   6.62e-12     10.130      0.000    5.41e-11       8e-11
+x5             0.5000   3.12e-12    1.6e+11      0.000       0.500       0.500
+x6          2.962e-17   4.98e-19     59.470      0.000    2.86e-17    3.06e-17
+==============================================================================
+Omnibus:                     1572.772   Durbin-Watson:                   1.624
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            43637.690
+Skew:                          -1.261   Prob(JB):                         0.00
+Kurtosis:                      18.912   Cond. No.                     5.36e+17
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[3] The smallest eigenvalue is 8.07e-18. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
